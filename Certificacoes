@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação e Competências | Isabelle Vitoria</title>
+    
+    <!-- Link para o CSS principal -->
+    <link rel="stylesheet" href="pessoais.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <!-- Seu nome aqui -->
+            <div class="logo">Isabelle Vitoria Gomes de Moura</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="vivo.html">Experiência Vivo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <h1>Cursos & Certificados</h1>
+                <p>Minhas Certificações e Cursos de aperfeiçoamento</p>
+                <a href="#formacao-gallery" class="cta-button">Ver Detalhes</a>
+            </div>
+        </section>
+
+        <!-- ======== GALERIA DE FORMAÇÃO E CURSOS ======== -->
+        <section id="formacao-gallery" class="gallery-section container">
+            <h2>Cursos e Certificações</h2>
+
+            <div class="masonry-grid">
+
+              <!-- Item 4: Certificado -->
+                <div class="grid-item">
+                    <img src="img/certificado white belt.jpg" alt="Certificado Lean Six Sigma">
+                    <div class="item-text">
+                        <h3>Certificação Lean Six Sigma</h3>
+                        <p><strong>White Belt</strong> – Vivo Telefônica<br>
+                           Conclusão: 02/2025</p>
+                    </div>
+                </div>
+
+                  <!-- Item 4: Certificado -->
+                <div class="grid-item">
+                   
+                    <div class="item-text">
+                        <h3>Certificação Lean Six Sigma</h3>
+                        <p><strong>Yellow Belt</strong> – Vivo Telefônica<br>
+                           Conclusão: 02/2025</p>
+                    </div>
+                </div>
+
+
+                <!-- Item 5: Texto de Cursos -->
+                <div class="grid-item">
+                    <img src="img/kingoflinguagens.png" alt="Logo King of Languages">
+                    <div class="item-text">
+                        <h3>Cursos Adicionais</h3>
+                        <p><strong>Curso de Inglês</strong><br>
+                           King of Languages (Em andamento)</p>
+                    </div>
+                </div>
+
+    
+
+
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/isabelle-vit%C3%B3ria-21b282275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="cta-button" target="_blank">Ver LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Isabelle Vitoria Gomes de Moura. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ======== MODAL POP-UP (HTML) ======== -->
+    <div id="competence-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+            <h3 id="modal-title">Título da Competência</h3>
+            <p id="modal-description">Descrição da competência...</p>
+        </div>
+    </div>
+
+    <!-- Link para o JavaScript (DEFER garante que ele só rode após o HTML) -->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
